@@ -1,0 +1,34 @@
+#container{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: solid black 2px;
+    overflow: hidden;
+    float: left;
+}
+
+#form{
+    visibility: hidden;
+    position: absolute;
+    float: left;
+    width: 250px;
+    border: #555555 2px solid;
+    background-color: white;
+}
+.box{
+    position: absolute;
+    float: left;
+    opacity: 80%;
+
+}
+#size, #color{
+    box-sizing: border-box;
+    width: 100%;
+}
+.error{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
