@@ -1,0 +1,12 @@
+.box{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    color: white;
+}
+body{
+    overflow-wrap: normal;
+}
