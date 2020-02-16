@@ -1,0 +1,31 @@
+    *{
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    /*first three buttons should be the same width and has a 10px right margin*/
+    .button_with_margin{
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    /*last button has the same width and has no margin*/
+    .last_button{
+        flex: 1;
+        margin: 0;
+    }
+
+    /*Include a 1px black border around button container,10px of padding.
+     its inside buttons will sit horizontally inside their container*/
+    .button_container{
+        display: flex;
+        justify-content: space-between;
+        border:black solid 1px;
+        padding: 10px;
+    }
+
+    /*paragraph has a 3px border of #ff2800 (Ferrari Red) and 15px of padding.*/
+    .paragraph{
+        border: #ff2800 solid 3px;
+        padding: 15px;
+    }
